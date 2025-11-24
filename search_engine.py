@@ -4,7 +4,7 @@ import math
 from collections import defaultdict, Counter, deque
 from bs4 import BeautifulSoup
 
-# STOP WORD LIST (Section 23.6.4 Recommendation)
+# STOP WORD LIST
 
 STOP_WORDS = {
     'a','an','the','and','or','but','in','on','at','to','for','with','by','of',
@@ -19,7 +19,7 @@ STOP_WORDS = {
     'same','too','very','also'
 }
 
-# Trie Data Structure (Section 23.6.5)
+# Trie Data Structure
 
 class TrieNode:
     def __init__(self):
